@@ -1,0 +1,978 @@
+/*  Extra small devices (portrait phones, less than 576px)------------------------------------------------ */
+@media (max-width: 575.98px) {
+    /*  header start*/
+   .logo h1 {
+        font-size: 21px;
+   }
+   .c_nav .navbar-toggler-icon {
+        width: 1.2em;
+    }
+   .d_menu {
+        width: 300px;
+    }
+   .d_menu[data-bs-popper] {
+        margin-top: 0;
+        top: 48px;
+        left: -2px;
+    }
+/*header end*/
+/*slider start*/
+    .s_content {
+        margin: 125px 0;
+    }
+     .s_content h1 {
+        font-size: 26px;
+    }
+    .s_content p {
+        margin: 20px 28px 35px 0;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .common_link {
+        padding: 7px 0 6px 9px;
+        font-size: 15px;
+    }
+    .common_i {
+        padding: 0 7px 0 5px;
+    }
+    .s_link{
+        font-size: 15px;
+    }
+/*slider end*/
+/*welcome start*/
+    .c_padding{
+        padding: 0 0 60px;
+    }
+    .c_line{
+        width: 2px;
+        height: 40px;
+   }
+    .c_h1 {
+       font-size: 21px;
+    }
+    .wel_p {
+       margin: 40px 7px 0;
+       font-size: 15px;
+       line-height: 27px;
+    }
+    .w_content {
+       margin: 65px 25px 0;
+   }
+   .w_icon {
+    margin: -22px 0 17px;
+    width: 55px;
+    font-size: 45px;
+   }
+   .w_h2{
+    font-size: 16px;
+   }
+   .w_p2 {
+    margin: 15px 7px 19px;
+    font-size: 15px;
+   }
+   .w_link{
+    font-size: 15px;
+   }
+/*welcome end*/
+/*about start*/
+    .about{
+     padding:0 0 60px;
+     text-align: center;
+   }
+   .a_h1 {
+    font-size: 28px;
+   }
+   .a_p1 {
+    margin: 20px 0 15px;
+   }
+   .a_image {
+     display: none;
+    }
+    .a_p1 {
+     margin: 30px 0 15px;
+    }
+/*about end*/
+/*work start*/
+    .work .navbar-expand .navbar-nav{
+        flex-direction: column;
+    }
+    .w_head {
+       margin-bottom: 30px;
+   }
+    .menu2 ul{
+        margin: 0 auto;
+    }
+    .o_text i {
+        margin: 77px 101px;
+        font-size: 46px;
+    }
+    .o_hp{
+        top: 62%;
+    }
+    .o_hp h2 {
+       font-size: 16px;
+   }
+    .o_hp p {
+      font-size: 15px;
+    }
+/*work end*/
+/*choose start*/
+    .c_text {
+      margin: 25px 0 0 9px;
+   }
+   .r_top i {
+      margin: 8px 7px 0 57px;
+      font-size: 28px;
+   }
+   .r_top h2 {
+    font-size: 15px;
+   }
+   .r_bot{
+      padding: 7px 14px 22px;
+      font-size: 15px;
+      text-align: center;
+   }
+/*choose end*/
+/*member start*/
+    .member{
+        padding-top: 0;
+    }
+    .m_content {
+      padding-left: 25px;
+   }
+    .m_icon {
+      margin-top: 65px;
+    }
+    .s_media{
+        padding: 6px 0;
+    }
+    .s_media ul li a i {
+      font-size: 22px;
+    }
+    .m_text{
+        width: 255px;
+    }
+    .m_text h2 {
+      font-size: 16px;
+    }
+    .m_text p {
+      font-size: 15px;
+    }
+/*member end*/
+/*price start*/
+     .p_content {
+       margin: 40px 20px 0;
+    }
+    .f_set legend {
+       font-size: 16px;
+    }
+    .p_hl {
+       margin: 0 0 13px 14px;
+    }
+    .p_hl h2 {
+      margin: 8px 0 2px;
+      font-size: 26px;
+    }
+    .p_hl h2 span {
+      font-size: 18px;
+    }
+/*price end*/
+/*buy start*/
+    .buy {
+      padding: 17px 0 8px;
+    }
+    .b_p {
+      font-size: 15px;
+      text-align: center;
+    }
+    .b_a a {
+      margin-top: 13px;
+      padding: 8px 9px 8px 31px;
+      font-size: 15px;
+    }
+/*buy end*/
+/*testimonial start*/
+     .test{
+        padding: 50px 0 6 0;
+     }
+     .t_left{
+        padding: 9px 10px 7px 11px;
+     }
+     .t_img {
+      margin: 0 0 25px;
+      width: 140px;
+      height: 140px;
+    }
+   .t_logo{
+       width: 20px;
+       top: 20px;
+       left: 23px;
+   }
+   .t_content{
+      margin-right: 20px;
+   }
+   .t_content h1, .t_content h2, .t_content h3 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .t_content p {
+      margin: 0 0 19px;
+      font-size: 15px;
+    }
+    .t_right{
+        margin-top: 12px;
+        text-align: center;
+    }
+    .b1 p, .b2 p, .span_g{
+       writing-mode: initial;
+       margin: 0;
+}
+    .b1, .b2, .span_g {
+      margin: 0;
+      rotate: 0deg;
+    }
+    .span_g{
+        display: inline-block;
+    }
+/*testimonial end*/
+/*contact start*/
+    .contact{
+     padding-top: 0;
+   }
+    .field, legend {
+      all: unset;
+   }
+    .field legend {
+      margin: 0 auto;
+      font-size: 18px;
+    }
+   .con_form {
+      margin: 50px 14px 0;
+   }
+   .b_con{
+    margin: 31px 0 0;
+   }
+   .b_con a {
+      font-size: 15px;
+    }
+/*contact end*/
+/*footer start*/
+    .c_h1 {
+      font-size: 26px;
+    }
+    .fp_link {
+      padding: 0 0 0;
+    }
+    .fp_link p{
+        margin: 26px 0;
+        font-size: 15px;
+    }
+    .fp_link ul li a i {
+      font-size: 14px;
+    }
+    .f_bot{
+       padding: 20px 0;
+ 
+    }
+    .f_bot p{
+        font-size: 11px;
+    }
+    .f_bot ul{
+      text-align: center !important;
+    }
+    .f_bot ul li a {
+      padding: 6px 0;
+      font-size: 13px;
+    }
+/*footer end*/
+}
+
+/*  Small devices (landscape phones, 576px and up) ---------------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*  header start*/
+    .logo h1 {
+        font-size: 26px;
+    }
+    .d_menu[data-bs-popper] {
+        margin-top: 0;
+        top: 0px;
+        left: 80px;
+    }
+/*header end*/
+/*slider start*/
+    .s_content {
+        margin: 140px 0;
+    }
+     .s_content h1 {
+        font-size: 39px;
+    }
+    .s_content p {
+        margin: 25px 78px 40px 0;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .common_link{
+        padding: 7px 0 6px 17px;
+        font-size: 15px;
+    }
+    .common_i {
+        padding: 0 9px;
+    }
+    .s_link{
+        font-size: 15px;
+    }
+/*slider end*/
+/*welcome start*/
+    .c_padding{
+        padding: 0 0 60px;
+    }
+    .c_line{
+        width: 2px;
+        height: 45px;
+   }
+   .c_h1{
+        font-size: 26px;
+   }
+    .wel_p {
+       margin-top: 32px;
+    }
+    .w_content {
+       margin: 65px 107px 0;
+   }
+   .w_icon {
+    margin: -22px 0 24px;
+    font-size: 54px;
+   }
+   .w_h2{
+    font-size: 17px;
+   }
+   .w_p2 {
+    margin: 15px 7px 19px;
+   }
+/*welcome end*/
+/*about start*/
+    .about{
+     padding:0 0 60px;
+     text-align: center;
+   }
+   .a_image {
+     display: none;
+    }
+    .a_h1{
+        font-size: 27px;
+    }
+    .a_p1 {
+     margin: 30px 0 15px;
+    }
+/*about end*/
+/*work start*/
+    .items {
+       margin: 15px auto;
+       width: 65%;
+    }
+    .w_head {
+       margin-bottom: 40px;
+   }
+    .menu2 ul li a {
+      margin: 0 2px;
+   }
+    .o_text i {
+       margin: 119px 138px;
+   }
+    .o_hp {
+       padding: 10px 0 5px 30px;
+       top: 74%;
+       left: -5%;
+       width: 339px;
+   }
+    .o_hp h2 {
+       font-size: 16px;
+   }
+   .o_hp p {
+      font-size: 15px;
+    }
+/*work end*/
+/*choose start*/
+    .c_text {
+      margin: 45px 0 0 110px;
+   }
+   .r_top{
+      margin-left: 24px;
+   }
+   .r_top i {
+      margin: 3px 9px 0 25px;
+      font-size: 37px;
+   }
+   .r_top h2 {
+      font-size: 17px;
+   }
+   .r_bot{
+      padding: 16px 10px;
+      text-align: center;
+   }
+/*choose end*/
+/*member start*/
+    .m_content {
+      padding-left: 133px;
+   }
+    .m_icon {
+      margin-top: 65px;
+    }
+    .s_media{
+        padding: 6px 0;
+    }
+    .s_media ul li a i {
+      font-size: 22px;
+    }
+    .m_text{
+        width: 255px;
+    }
+    .m_text h2 {
+      font-size: 16px;
+    }
+    .m_text p {
+      font-size: 15px;
+    }
+/*member end*/
+/*price start*/
+     .p_content {
+       margin: 40px 103px 0;
+    }
+    .f_set legend {
+       font-size: 17px;
+    }
+    .p_hl {
+       margin: 0 0 13px 14px;
+    }
+    .p_hl h2 {
+      margin: 10px 0 4px;
+      font-size: 29px;
+    }
+    .p_hl h2 span {
+      font-size: 20px;
+    }
+/*price end*/
+/*buy start*/
+    .buy {
+      padding: 17px 0 8px;
+    }
+    .b_p {
+      font-size: 16px;
+      text-align: center;
+    }
+    .b_a a {
+      margin: 14px 0 0 168px;
+      padding: 8px 9px 8px 31px;
+      font-size: 15px;
+    }
+/*buy end*/
+/*testimonial start*/
+     .test{
+        padding-top: 50px;
+     }
+     .t_img {
+      margin: 0 0 25px;
+      width: 150px;
+      height: 150px;
+    }
+    .t_img img {
+      margin: 0;
+   }
+   .t_logo{
+    width: 22px;
+   }
+   .t_content{
+      margin-right: 20px;
+   }
+   .t_content h1, .t_content h2, .t_content h3 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .t_content p {
+      margin: 0 0 19px;
+      font-size: 15px;
+    }
+    .t_right{
+        margin-top: 12px;
+    }
+    .b1 p, .b2 p, .span_g{
+        margin: 0;
+        writing-mode: initial;
+}
+    .b1, .b2, .span_g {
+      margin: 0;
+    }
+    .b1{
+        margin-left: 20px;
+    }
+    .span_g{
+        display: inline-block;
+    }
+/*contact start*/
+    .contact{
+        padding-bottom: 60px;
+    }
+    .field legend {
+      margin: 0 170px;
+      font-size: 18px;
+    }
+   .con_form {
+      margin: 50px 12px 0;
+   }
+   .b_con a {
+      font-size: 15px;
+    }
+/*contact end*/
+/*footer start*/
+    .c_h1 {
+      font-size: 26px;
+    }
+    .fp_link {
+      padding: 0 77px 70px;
+    }
+    .fp_link p{
+        margin: 26px 0;
+        font-size: 15px;
+    }
+    .fp_link ul li a i {
+      font-size: 19px;
+    }
+    .f_bot{
+       padding: 20px 0;
+ 
+    }
+    .f_bot p{
+        font-size: 15px;
+    }
+    .f_bot ul{
+      text-align: center !important;
+    }
+    .f_bot ul li a {
+      padding: 6px 0;
+      font-size: 15px;
+    }
+/*footer end*/
+}
+/*  Medium devices (tablets, 768px and up) -------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header start*/
+    .logo h1 {
+        font-size: 29px;
+   }
+    .d_menu[data-bs-popper] {
+        margin-top: 0;
+        top: 0px;
+        left: 80px;
+    }
+/*header end*/
+/*slider start*/
+    .s_content {
+        margin: 160px 0;
+    }
+     .s_content h1 {
+        font-size: 46px;
+    }
+    .s_content p {
+        margin: 30px 80px 45px 0;
+    }
+    .common_link{
+        padding: 8px 0 8px 20px;
+    }
+
+    .common_i{
+       padding: 0 12px;
+    }
+/*slider end*/
+/*welcome start*/
+    .c_padding{
+        padding: 0 0 80px;
+   }
+   .c_line{
+        width: 2px;
+        height: 45px;
+   }
+   .c_h1{
+        font-size: 29px;
+   }
+    .wel_p {
+        margin-top: 33px;
+    }
+    .w_content {
+        margin: 60px 23px 0;
+   }
+   .w_icon {
+       font-size: 51px;
+   }
+   .w_h2{
+       font-size: 17px;
+   }
+/*welcome end*/
+/*about start*/
+   .about{
+      padding: 0 0 80px;
+   }
+   .a_h1 {
+      font-size: 29px;
+   }
+   .a_p1 {
+      margin: 15px 0 0;
+   }
+   .a_p2{
+    margin-bottom: 20px;
+   }
+/*about end*/
+/*work start*/
+    .w_head {
+       margin-bottom: 45px;
+   }
+    .menu2 ul li a {
+       margin-right: 17px;
+    }
+    .o_text i {
+      margin: 91px 112px;
+   }
+    .o_hp {
+     padding: 10px 0 5px 35px;
+     top: 69%;
+     left: -5%;
+     width: 285px;
+   }
+    .o_hp h2 {
+       font-size: 16px;
+   }
+   .o_hp p {
+      font-size: 15px;
+    }
+/*work end*/
+
+/*choose start*/
+    .c_text {
+      margin: 55px 0 0 41px;
+   }
+   .r_top i {
+      margin: 5px 18px 0 0;
+      font-size: 35px;
+   }
+   .r_top h2 {
+      font-size: 17px;
+   }
+/*choose end*/
+/*member start*/
+.m_content {
+      margin: 0 25px;
+   }
+    .m_icon {
+      margin-top: 55px;
+    }
+    .m_text{
+        width: 76%;
+    }
+    .m_text h2 {
+      font-size: 16px;
+    }
+/*member end*/
+/*price start*/
+    .p_content {
+    margin: 40px 16px 0;
+    }
+    .f_set legend {
+      font-size: 17px;
+    }
+    .p_hl {
+      margin: 0 0 25px 20px;
+    }
+    .p_hl h2 {
+      font-size: 28px;
+    }
+/*price end*/
+/*buy start*/
+    .buy {
+      padding: 30px 0 1px;
+    }
+    .b_p {
+      margin-top: 9px;
+      font-size: 16px;
+    }
+    .b_a a {
+      margin-left: 145px;
+      padding: 8px 9px 8px 31px;
+      font-size: 15px;
+    }
+/*buy end*/
+/*testimonual start*/
+    .test{
+        padding-top: 60px;
+    }
+     .t_left {
+       padding: 12px 0 12px 12px;
+    }
+     .t_img {
+      width: 158px;
+      height: 160px
+    }
+    .t_logo{
+        width: 23px;
+    }
+    .t_content{
+        margin-left: 13px;
+    }
+    .t_content h1, .t_content h2, .t_content h3 {
+      margin-bottom: 8px;
+      font-size: 17px;
+    }
+    .t_content p {
+      margin: 10px 0 15px;
+    }
+    .b1, .b2{
+        font-size: 15px;
+    }
+    .b1{
+      margin: 45px -22px 40px;
+   }
+   .b2{
+      margin: 54px -22px 28px;
+  }
+   .span_g{
+     margin-left: 7px;
+  }
+/*testimonial end*/
+/*contact start*/
+    .contact{
+      padding-bottom: 80px;
+    }
+    .field legend {
+      margin: 0 251px;
+      font-size: 20px;
+   }
+   .con_form {
+      margin: 60px 68px 0;
+   }
+   .b_con a {
+      font-size: 15px;
+    }
+/*contact end*/
+/*footer start*/
+    .c_h1 {
+      font-size: 28px;
+    }
+    .fp_link {
+      padding: 0 77px 90px;
+    }
+    .fp_link ul li a i {
+      font-size: 24px;
+    }
+    .f_bot p {
+      font-size: 15px;
+    }
+    .f_bot ul li a {
+        padding: 6px 0;
+      font-size: 15px;
+    }
+/*footer end*/
+}
+/*  Large devices (desktops, 992px and up)------------------------------------------------------------ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*    header start*/
+      .logo h1 {
+        font-size: 29px;
+   }
+/*header end*/
+    /*  slider start*/
+    .s_content {
+        margin: 190px 0;
+    }
+    .s_content h1 {
+       font-size: 50px;
+    }
+/*sider end*/
+/*welcome start*/
+    .c_padding{
+        padding: 0 0 80px;
+   }
+    .c_h1 {
+        font-size: 29px;
+    }
+    .w_content {
+        margin-top: 80px;
+    }
+/*welcome end*/
+/*about start*/
+    .about{
+        padding: 0 0 80px;
+    }
+    .a_p1 {
+       margin: 20px 0 12px;
+   }
+/*about end*/
+/*work start*/
+    .menu2 ul li a {
+       margin-right: -2px;
+       font-size: 15px;
+    }
+    .o_text i {
+       margin: 80px 94px;
+   }
+   .o_hp {
+       top: 61%;
+   }
+   .o_hp h2 {
+       font-size: 17px;
+   }
+/*work end*/
+/*choose start*/
+   .r_top i{
+      font-size: 40px;
+   }
+/*choose end*/
+/*member start*/
+    .m_text {
+       padding: 11px 17px;
+       width: 100%;
+    }
+    .m_text h2 {
+      font-size: 16px;
+    }
+    .s_media ul li a {
+      padding: 6px 9px;
+    }
+    .s_media ul li a i {
+      font-size: 19px;
+    }
+/*member end*/
+/*price start*/
+    .p_content {
+    margin-top: 70px;
+    }
+    .f_set legend {
+      font-size: 17px;
+    }
+    .p_hl {
+      margin: 0 0 25px 4px;
+    }
+    .p_hl h2 {
+      font-size: 28px;
+    }
+/*price end*/
+/*buy start*/
+    .b_p {
+      margin-top: 10px;
+      font-size: 17px;
+    }
+    .b_a a {
+      margin-left: 100px;
+    }
+/*buy end*/
+/*testimonial start*/
+    .test{
+        padding-top: 70px;
+    }
+    .t_img {
+      width: 242px;
+      height: 260px;
+    }
+    .t_content {
+      margin-left: 39px;
+      margin-right: 14px;
+    }
+    .t_content h1, .t_content h2, .t_content h3 {
+      margin-bottom: 11px;
+      font-size: 17px;
+    }
+    .t_content p {
+      margin: 15px 0 16px;
+    }
+    .b1 {
+      margin: 30px -12px 35px;
+    }
+    .b2 {
+      margin: 40px -12px 22px;
+    }
+    .span_g{
+        margin-left: 16px;
+    }
+/*testimonial end*/
+/*contact start*/
+    .contact {
+      padding-bottom: 80px;
+    }
+    .field legend {
+      margin: 0 350px;
+      font-size: 25px;
+   }
+/*contact end*/
+/*footer start*/
+    .fp_link {
+      padding: 0 51px 90px;
+    }
+    .c_h1 {
+      font-size: 26px;
+    }
+/*footer end*/
+}
+/*Extra large devices (desktops, 1200px and up) -------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/* work start*/
+   .o_hp {
+    top: 67%;
+    left: -5%;
+    width: 302px;
+   }
+/*work end*/
+/*member start*/
+/*member end*/
+/*contact start*/
+    .contact {
+      padding-bottom: 80px;
+    }
+/*contact end*/
+}
+
+/*  Extra large devices (large desktops, 1400px and up)------------------------------------------------ */
+@media (min-width: 1400px) {
+	/* slider start*/
+    .s_content p {
+       padding-right: 21px;
+    }
+/*slider end*/
+/*work start*/
+    .menu2{
+        margin-left: 67px;
+    }
+    .o_text i {
+        margin: 121px 145px;
+    }
+    .o_hp {
+       padding: 10px 0 10px 40px;
+       top: 71%;
+    }
+    .b1, .b2{
+        margin-left: 8px;
+    }
+/*work end*/
+/*member start*/
+.m_text {
+    width: 83%;
+}
+/*member end*/
+/*testimonial start*/
+    .b1{
+   margin: 36px -3px 35px;
+}
+.b2{
+   margin: 40px -3px 30px;
+}
+.span_g{
+    margin-left: 25px;
+}
+/*testimonial end*/
+/*contact start*/
+    .field legend {
+       margin: 0 512px;
+    }
+/*contact end*/
+/*footer start*/
+    .fp_link {
+      padding: 0 62px 100px;
+    }
+/*footer end*/
+}
